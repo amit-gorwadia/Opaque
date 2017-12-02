@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auditable\Auditable.cs" />
+    <Compile Include="Auditable\IAuditable.cs" />
     <Compile Include="Base\Base.cs" />
     <Compile Include="Base\IBase.cs" />
     <Compile Include="Empty.cs" />
